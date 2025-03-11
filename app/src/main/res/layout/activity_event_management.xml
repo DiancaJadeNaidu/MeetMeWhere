@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Button to Add New Event -->
+    <Button
+        android:id="@+id/btnAddNewEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Event"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Edit Text for Event Title -->
+    <EditText
+        android:id="@+id/edtEventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Title"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Edit Text for Event Description -->
+    <EditText
+        android:id="@+id/edtEventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Description"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Edit Text for Event Date -->
+    <EditText
+        android:id="@+id/edtEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Date"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Edit Text for Event Time -->
+    <EditText
+        android:id="@+id/edtEventTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Time"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Edit Text for Event Location -->
+    <EditText
+        android:id="@+id/edtEventLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Location"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Save Changes Button -->
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Cancel Changes Button -->
+    <Button
+        android:id="@+id/btnCancelChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Changes"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- RecyclerView for displaying events -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewEvents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
